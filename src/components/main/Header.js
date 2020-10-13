@@ -41,6 +41,12 @@ export default function Header() {
             <NavItem>
               <Link className="nav-link" to="/state">State</Link>
             </NavItem>
+            <NavItem>
+              <Link className="nav-link" to="/funwithstate">Function With State</Link>
+            </NavItem>
+            <NavItem>
+              <Link className="nav-link" to="/form-input">Form Input</Link>
+            </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
                 Options

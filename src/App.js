@@ -12,6 +12,8 @@ import Home from './components/main/Home';
 import About from './components/main/About';
 import Contact from './components/main/Contact';
 import StateExample from './components/main/StateExample';
+import FunctionsWithState from './components/main/FunctionsWithState'
+import FormInputs from './components/main/FormInputs';
 function App() {
   return (
    <div>
@@ -31,6 +33,8 @@ function App() {
       <Route exact path="/about" component={About}></Route>
       <Route exact path="/contact" component={Contact}></Route>
       <Route exact path="/state" component={StateExample}></Route>
+      <Route exact path="/funwithstate" component={FunctionsWithState}></Route>
+      <Route exact path="/form-input" component={FormInputs}/>
       </Router>
     </div>
 
