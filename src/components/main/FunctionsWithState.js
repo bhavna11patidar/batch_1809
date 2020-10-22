@@ -4,7 +4,7 @@ export default class FunctionsWithState extends Component {
     constructor(props){
         super();
         this.state={
-            name:"",
+            name:"",    
             email:"",
             clsname:"",
         }

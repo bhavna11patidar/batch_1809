@@ -47,6 +47,9 @@ export default function Header() {
             <NavItem>
               <Link className="nav-link" to="/form-input">Form Input</Link>
             </NavItem>
+            <NavItem>
+              <Link className="nav-link" to="/register">Register</Link>
+            </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
                 Options

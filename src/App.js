@@ -14,6 +14,7 @@ import Contact from './components/main/Contact';
 import StateExample from './components/main/StateExample';
 import FunctionsWithState from './components/main/FunctionsWithState'
 import FormInputs from './components/main/FormInputs';
+import Register from "./components/main/Register";
 function App() {
   return (
    <div>
@@ -35,6 +36,7 @@ function App() {
       <Route exact path="/state" component={StateExample}></Route>
       <Route exact path="/funwithstate" component={FunctionsWithState}></Route>
       <Route exact path="/form-input" component={FormInputs}/>
+      <Route exact path="/register" component={Register}/>
       </Router>
     </div>
 
