@@ -15,6 +15,8 @@ import StateExample from './components/main/StateExample';
 import FunctionsWithState from './components/main/FunctionsWithState'
 import FormInputs from './components/main/FormInputs';
 import Register from "./components/main/Register";
+import Hooks from './components/main/Hooks';
+import RegisterWithHooks from "./components/main/RegisterWithHooks"
 function App() {
   return (
    <div>
@@ -37,6 +39,8 @@ function App() {
       <Route exact path="/funwithstate" component={FunctionsWithState}></Route>
       <Route exact path="/form-input" component={FormInputs}/>
       <Route exact path="/register" component={Register}/>
+      <Route exact path="/hooks" component={Hooks}/>
+      <Route exact path="/register-hooks" component={RegisterWithHooks}/>
       </Router>
     </div>
 

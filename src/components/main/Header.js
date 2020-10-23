@@ -50,6 +50,12 @@ export default function Header() {
             <NavItem>
               <Link className="nav-link" to="/register">Register</Link>
             </NavItem>
+            <NavItem>
+              <Link className="nav-link" to="/hooks">Hooks</Link>
+            </NavItem>
+            <NavItem>
+              <Link className="nav-link" to="/register-hooks">Register Hooks</Link>
+            </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
                 Options
