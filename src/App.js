@@ -16,7 +16,9 @@ import FunctionsWithState from './components/main/FunctionsWithState'
 import FormInputs from './components/main/FormInputs';
 import Register from "./components/main/Register";
 import Hooks from './components/main/Hooks';
-import RegisterWithHooks from "./components/main/RegisterWithHooks"
+import RegisterWithHooks from "./components/main/RegisterWithHooks";
+import CounterComp1 from './components/main/CounterComp1';
+import CounterComp2 from './components/main/CounterComp2';
 function App() {
   return (
    <div>
@@ -40,7 +42,8 @@ function App() {
       <Route exact path="/form-input" component={FormInputs}/>
       <Route exact path="/register" component={Register}/>
       <Route exact path="/hooks" component={Hooks}/>
-      <Route exact path="/register-hooks" component={RegisterWithHooks}/>
+      <Route exact path="/counter-comp1" component={CounterComp1}/>
+      <Route exact path="/counter-comp2" component={CounterComp2}/>
       </Router>
     </div>
 

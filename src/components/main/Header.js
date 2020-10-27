@@ -56,6 +56,12 @@ export default function Header() {
             <NavItem>
               <Link className="nav-link" to="/register-hooks">Register Hooks</Link>
             </NavItem>
+            <NavItem>
+              <Link className="nav-link" to="/counter-comp1">Counter Comp1</Link>
+            </NavItem>
+            <NavItem>
+            <Link className="nav-link" to="/counter-comp2">Counter Comp2</Link>
+            </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
                 Options
